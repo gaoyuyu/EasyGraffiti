@@ -1,0 +1,53 @@
+p {
+  display: block;
+}
+.author{
+	margin-top:10px;
+	}
+.author_top{
+	width:1000px;
+	height:50px;
+	border-radius:5px 5px 0 0;
+	}	
+.black{
+	background-color:#333;
+	}	
+.red{
+	background-color:#B5263C;
+	}
+.author_bottom{
+	width:1000px;
+	height:600px;
+	background-color:#FFF;
+	border-radius:0 0 5px 5px;
+	}		
+.author_bottom .tic{
+    width:120px;
+	float:left;
+	text-align:center;
+	margin:10px;
+	}
+.clear{
+	clear:both;
+	}	
+.name{
+	display:block;
+	font-size:14px;
+	float:left;
+	font-weight:bold;
+	color:#333;
+	}
+.black strong {
+  color: #F1F1F1;
+  line-height: 50px;
+  padding-left: 20px;
+  font-size:16px;
+  font-weight:bold;
+}	
+.red strong {
+  color: #F1F1F1;
+  line-height: 50px;
+  padding-left: 20px;
+  font-size:16px;
+  font-weight:bold;
+}				

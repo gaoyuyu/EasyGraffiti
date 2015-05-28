@@ -1,0 +1,103 @@
+.content{
+	background:#fff;
+	border-radius:5px;
+	width:960px;
+	margin:20px 0;
+	}
+.con_top{
+	width:960px;
+	height:150px;
+	padding:10px 20px;
+	border-bottom:1px solid #ccc;
+	}
+.con_top h3{
+	color:#999;
+	text-align:left;
+	margin:10px 20px;
+	}		
+.line{
+	width:920px;
+	height:1px;
+	margin-right:40px;
+	border-bottom:1px solid #ccc;
+	}	
+.zuo{
+	width:960px;
+	height:120px;
+	margin:10px;
+	}	
+.zuo a{
+	float:left;
+	}	
+.name{
+	font-size:16px;
+	color:#09C;
+	margin-left:20px;
+	line-height:30px;
+	}	
+.a_name:hover{
+	color:#0CF;
+	position:relative;
+	top:5px;
+	left:5px;
+	}	
+.button{
+	padding:5px 10px;
+	background:#FAFAFA;
+	border:1px solid #CCC;
+	float:right;
+	margin-right:80px;
+	}	
+.con_center{
+	width:960px;
+	padding-top:10px;
+	padding-bottom:20px;
+	border-bottom:1px #CCC dashed;
+	}
+.shang{
+	width:940px;
+	margin-top:10px;
+	padding-right:20px;
+	}		
+.shang p{
+	text-align:right;
+	color:#666;
+	}	
+.tu{
+	width:960px;
+	margin-top:30px;
+	}	
+.tu h2{
+	color:#000;
+	font-size:24px;
+	}	
+.tu p{
+	text-align:center;
+	line-height:20px;
+	}	
+.con_bottom{
+    width:960px;
+	padding:20px 150px;	
+	}	
+.con_bottom h3{
+	text-align:left;
+	font-weight:bold;
+	}	
+.ping{
+	margin-right:360px;
+	margin-top:20px;
+	width:600px;
+	height:100px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	}		
+.ti{
+	padding:10px 20px;
+	font-size:12px;
+	color:#fff;
+	background:#0CF;
+	border:none;
+	border-radius:5px;
+	margin-top:10px;
+	margin-right:870px;
+	}	
