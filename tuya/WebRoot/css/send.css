@@ -1,0 +1,87 @@
+.content{
+	background:#fff;
+	border-radius:10px;
+	width:960px;
+	margin-top:20px;
+	height:580px;
+	padding-top:20px;
+	font-size:16px;
+	line-height:25px;
+	}
+.content table{
+	text-align:center;
+	}
+.content td ol{
+	text-align:left;
+	margin-left:20px;
+	}	
+.content td{
+	padding:10px;
+	}
+.content select{
+	height:30px;
+	text-align:center;
+	width:60px;
+	font-size:14px;
+	}		
+.content td input{
+	height:30px;
+	border-radius:5px;
+	font-size:16px;
+	border:1px solid #ccc;
+	}	
+.ip input{
+	width:400px;
+	}	
+hr{
+	border:1px solid #e9e9e9;
+	width:920px;
+	}
+.btm{
+	width:960px;
+	text-align:left;
+	padding:0 20px;
+    margin-top:20px;
+	}	
+.btm p{
+	margin-left:150px;
+	margin-top:20px;
+	color:#333333;
+	}	
+.send{
+	display:block;
+	width:90px;
+	height:30px;
+	font-size:14px;
+	line-height:30px;
+	padding:2px 15px;
+	background:#333;
+	border-radius:20px;
+	color:#fff;
+	margin-left:150px;
+	}	
+.send:hover{
+	background:#999;
+	}
+.btn:focus {
+    outline: thin dotted rgb(51, 51, 51);
+    outline-offset: -2px;
+}
+.btn-info {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgb(73, 175, 205);
+    background-image: linear-gradient(to bottom, rgb(91, 192, 222), rgb(47, 150, 180));
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}	
+.btn-large {
+    padding: 8px 30px;
+    border-radius: 6px 6px 6px 6px;
+}
+.btn{
+	font-size: 14px;
+    line-height: 20px;
+	margin-top:60px;
+	margin-left:150px;
+	}				

@@ -1,0 +1,62 @@
+.content{
+	width:590px;
+	padding:25px 30px;
+	}
+.xinxi{
+	width:560px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #E6E6E6;
+	text-align:left;
+	color:#999;
+	}
+.xinxi span{
+	margin-left:20px;
+	}		
+.xinxi a{
+	color:#09F;
+	}	
+.about_xinxi{
+	padding-top:10px;
+	width:560px;
+	text-align:left;
+	xolor:#333;
+	}
+.about_xinxi dl{
+	float:left;
+	width:280px;
+	}
+.about_xinxi dt{
+	float: left;
+    height: 25px;
+    line-height: 25px;
+    width: 65px;
+	}			
+.about_xinxi dd{
+	height: 25px;
+    line-height: 25px;
+	}	
+.name-img a{
+	display:block;
+	color:#fff;
+	background:#999;
+	width:160px;
+	height:30px;
+	line-height:30px;
+	opacity:0.5;
+	position:relative;
+	top:-30px;
+		}
+.name-img a:hover{
+	opacity:1;
+	}	
+.button{
+	padding:5px 15px;
+	background:#3399FF;
+	border:none;
+	color:#fff;
+	margin-top:10px;
+    margin-left:500px;
+	margin-bottom:30px;
+	cursor:pointer;
+	}		

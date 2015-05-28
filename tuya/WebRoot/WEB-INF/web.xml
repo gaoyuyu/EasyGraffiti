@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<servlet>
+		<servlet-name>CheckCodeServlet</servlet-name>
+		<servlet-class>myservlet.control.CheckCodeServlet</servlet-class>
+		<init-param>
+			<param-name>check</param-name>
+			<param-value>check</param-value>
+		</init-param>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>AndroidLoginServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidLoginServlet</servlet-name>
+		<url-pattern>/AndroidLoginServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AndroidRegisterServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidRegisterServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidRegisterServlet</servlet-name>
+		<url-pattern>/AndroidRegisterServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AndroidServletShowWorks</servlet-name>
+		<servlet-class>android.servlet.AndroidServletShowWorks</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidServletShowWorks</servlet-name>
+		<url-pattern>/AndroidServletShowWorks</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AndroidSetSexServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidSetSexServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidSetSexServlet</servlet-name>
+		<url-pattern>/AndroidSetSexServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidSetMarkServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidSetMarkServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidSetMarkServlet</servlet-name>
+		<url-pattern>/AndroidSetMarkServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AndroidSetUsernameServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidSetUsernameServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidSetUsernameServlet</servlet-name>
+		<url-pattern>/AndroidSetUsernameServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidUploadServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidUploadServlet</servlet-name>
+		<url-pattern>/AndroidUploadServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidSetPhotoServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidSetPhotoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidSetPhotoServlet</servlet-name>
+		<url-pattern>/AndroidSetPhotoServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidSendWorkServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidSendWorkServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidSendWorkServlet</servlet-name>
+		<url-pattern>/AndroidSendWorkServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidGetSendWorkServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidGetSendWorkServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidGetSendWorkServlet</servlet-name>
+		<url-pattern>/AndroidGetSendWorkServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidPublishPicServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidPublishPicServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidPublishPicServlet</servlet-name>
+		<url-pattern>/AndroidPublishPicServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidAddGoodServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidAddGoodServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidAddGoodServlet</servlet-name>
+		<url-pattern>/AndroidAddGoodServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidAddUserGoodServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidAddUserGoodServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidAddUserGoodServlet</servlet-name>
+		<url-pattern>/AndroidAddUserGoodServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidGetSendWork4LogoutServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidGetSendWork4LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidGetSendWork4LogoutServlet</servlet-name>
+		<url-pattern>/AndroidGetSendWork4LogoutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidGetWorkCommentServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidGetWorkCommentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidGetWorkCommentServlet</servlet-name>
+		<url-pattern>/AndroidGetWorkCommentServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidAddUserCommentServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidAddUserCommentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidAddUserCommentServlet</servlet-name>
+		<url-pattern>/AndroidAddUserCommentServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidGetPersonWorkServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidGetPersonWorkServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidGetPersonWorkServlet</servlet-name>
+		<url-pattern>/AndroidGetPersonWorkServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidGetCountServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidGetCountServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidGetCountServlet</servlet-name>
+		<url-pattern>/AndroidGetCountServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidFindPsdServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidFindPsdServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidFindPsdServlet</servlet-name>
+		<url-pattern>/AndroidFindPsdServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidDeleteWorkServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidDeleteWorkServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidDeleteWorkServlet</servlet-name>
+		<url-pattern>/AndroidDeleteWorkServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidPushServlet</servlet-name>
+		<servlet-class>android.servlet.AndroidPushServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidPushServlet</servlet-name>
+		<url-pattern>/AndroidPushServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidSetComItem</servlet-name>
+		<servlet-class>android.servlet.AndroidSetComItem</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidSetComItem</servlet-name>
+		<url-pattern>/AndroidSetComItem</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AndroidGetComItem</servlet-name>
+		<servlet-class>android.servlet.AndroidGetComItem</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AndroidGetComItem</servlet-name>
+		<url-pattern>/AndroidGetComItem</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>CheckCodeServlet</servlet-name>
+		<url-pattern>/check</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>zhuce</servlet-name>
+		<servlet-class>myservlet.control.ServletRegister</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>zhuce</servlet-name>
+		<url-pattern>/helpRegister</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>denglu</servlet-name>
+		<servlet-class>myservlet.control.ServletLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>denglu</servlet-name>
+		<url-pattern>/helplogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>exit</servlet-name>
+		<servlet-class>myservlet.control.ServletExit</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>exit</servlet-name>
+		<url-pattern>/helpExit</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>userinfo</servlet-name>
+		<servlet-class>myservlet.control.HandleUserinfo</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userinfo</servlet-name>
+		<url-pattern>/helpUserinfo</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>gerenzhuye</servlet-name>
+		<servlet-class>myservlet.control.ServletGerenzhuye</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>gerenzhuye</servlet-name>
+		<url-pattern>/helpGerenzhuye</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>changeMessage</servlet-name>
+		<servlet-class>myservlet.control.HandleChangeMessage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>changeMessage</servlet-name>
+		<url-pattern>/helpChangeMessage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addMessage</servlet-name>
+		<servlet-class>myservlet.control.MessageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addMessage</servlet-name>
+		<url-pattern>/addMessage</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>showMessage</servlet-name>
+		<servlet-class>myservlet.control.MessageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showMessage</servlet-name>
+		<url-pattern>/showMessage</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>changeTou</servlet-name>
+		<servlet-class>myservlet.control.ServletChangeT</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>changeTou</servlet-name>
+		<url-pattern>/changeTou</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>upload</servlet-name>
+		<servlet-class>myservlet.control.UpLoad</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>upload</servlet-name>
+		<url-pattern>/upload</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>upload2</servlet-name>
+		<servlet-class>myservlet.control.ServletUpLoad</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>upload2</servlet-name>
+		<url-pattern>/helpUpload</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>showWorks</servlet-name>
+		<servlet-class>myservlet.control.ServletShowWorks</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showWorks</servlet-name>
+		<url-pattern>/helpShow</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addComment</servlet-name>
+		<servlet-class>myservlet.control.CommentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addComment</servlet-name>
+		<url-pattern>/addComment</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>showComment</servlet-name>
+		<servlet-class>myservlet.control.CommentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showComment</servlet-name>
+		<url-pattern>/showComment</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>uploadServlet</servlet-name>
+		<servlet-class>myservlet.control.UploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>uploadServlet</servlet-name>
+		<url-pattern>/uploadServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>show</servlet-name>
+		<servlet-class>myservlet.control.Show</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show</servlet-name>
+		<url-pattern>/show</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>reply</servlet-name>
+		<servlet-class>myservlet.control.Reply</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reply</servlet-name>
+		<url-pattern>/reply</url-pattern>
+	</servlet-mapping>
+</web-app>
+  

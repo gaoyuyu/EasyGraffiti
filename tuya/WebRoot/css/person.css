@@ -1,0 +1,136 @@
+#person{
+	margin-top:20px;
+	background-color:#FFF;
+	border-radius:5px;
+	width:1000px;
+	height:1340px;
+	}
+.per-left{
+	width:300px;
+	float:left;
+	clear:both;
+	}	
+.per-right{
+	width:699px;
+	float:right;
+	position:relative;
+	border-left:1px solid #ccc;
+	}	
+.p-l-t{
+	height:400px;
+	width:300px;
+	margin-top:20px;
+	}	
+.name{
+	width:200px;
+	height:260px;
+	margin:50px;
+	background:#ccc;
+	border-radius:5px;
+	}
+.name-img{
+	padding-top:10px;
+	}	
+.clear{
+	clear:both;
+	}	
+.name1{
+	color:#000;
+	font-size:14px;
+	font-weight:bold;
+	padding:3px 0 0 20px;
+	}
+element.style {
+}
+
+.newmanx3 {
+float: left;
+margin-left: 5px;
+width: 16px;
+height: 16px;
+}
+.nav ,.zuoping{
+	width:650px;
+	margin:20px 0 25px 10px;
+	border-bottom:1px #ccc solid;
+	}
+.nav{
+	height:50px;
+	}			
+.per-nav li{
+	float:left;
+	}
+.per-nav li a {
+	display:block;
+	width:80px;
+	height:20px;
+	font-size:14px;
+	line-height:20px;
+	color:#ccc;
+	font-weight:bold
+	}	
+.per-nav a:hover{
+	color:#000;
+	font-weight:bolder;
+	}	
+.zuopin{
+	height:600px;
+	}	
+h3 {
+display: block;
+font-size: 1.17em;
+font-weight: bold;
+}	
+.z-bottom{
+	
+	}
+.picdiv{
+	float:left;
+	width:200px;
+	height:282px;
+	margin-left:10px;
+	margin-top:20px;
+	}	
+.title_name{
+	color:#333;
+	line-height:20px;
+	margin-left:2px;
+	}
+.liuyanban{
+	width:650px;
+	height:600px;
+	padding-top:20px;
+	}
+.page{
+	float:right;
+	margin-right:50px;
+	}
+.page a{
+	border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    color: rgb(51, 102, 153);
+    margin: 2px;
+    padding: 2px 5px;
+    text-decoration: none;
+	}	
+.num{
+	background: none repeat scroll 0px 0px rgb(58, 129, 192);
+    border-bottom: 1px solid rgb(50, 102, 160);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px lightgray;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 2px;
+    padding: 2px 5px;
+	}	
+.send{
+	display:block;
+	width:80px;
+	height:30px;
+	font-size:14px;
+	line-height:30px;
+	background:#09C;
+	border-radius:5px;
+	color:#fff;
+	margin-left:400px;
+	}			

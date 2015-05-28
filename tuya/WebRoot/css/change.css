@@ -1,0 +1,15 @@
+.dui{
+	float:left;
+	width:150px;
+	}
+.txt{
+	float:right;
+	width:500px;
+	height:200px;
+	text-align:left;
+	}	
+.txt h2{
+	font-size:30px;
+	color:#09f;
+	line-height:120px;
+	}	

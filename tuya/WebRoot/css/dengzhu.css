@@ -1,0 +1,152 @@
+.dengzhu{
+	width:960px;
+	height:400px;
+	margin:0 auto;
+	background:#FFF;
+	border-radius:5px;
+	margin-top:10px;
+	}
+.dengzhu_left{
+	width:500px;
+	height:400px;
+	float:left;
+	position:relative;
+	}	
+.dengzhu_right{
+	width:460px; 
+	height:400px;
+	float:right;
+	position:relative;
+	}
+.login{
+	display:block;
+	margin:20px;
+	margin-top:40px;
+	}	
+.login b{
+	font-size:30px;
+	font-weight:bold;
+	color:#666;
+	}
+.login a{
+	font-size:25px;
+	color:#09C;
+	display:block;
+	float:right;
+	position:relative;
+	top:5px;
+	right:40px;
+	}		
+.btn:focus {
+    outline: thin dotted rgb(51, 51, 51);
+    outline-offset: -2px;
+}
+.btn-info {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+    background-color: rgb(73, 175, 205);
+    background-image: linear-gradient(to bottom, rgb(91, 192, 222), rgb(47, 150, 180));
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}	
+.btn-large {
+    padding: 8px 30px;
+    border-radius: 6px 6px 6px 6px;
+}
+.btn{
+	font-size: 14px;
+    line-height: 20px;
+	}	
+.control-group {
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+	width:460px;
+}
+.control-group .input-xlarge {
+    width:300px;
+    height: 35px;
+}
+
+input[type="text"]{
+	display: inline-block;
+    height: 30px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(85, 85, 85);
+    vertical-align:middle;
+    border-radius: 4px 4px 4px 4px;
+	}
+input, textarea, select {
+    font: 12px '微软雅黑';
+}
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus{
+	border-color: rgba(82, 168, 236, 0.8);
+    outline: medium none;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+	}
+input[type="text"], input[type="password"]{
+    display: inline-block;
+    height: 30px;
+    padding: 4px 6px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(85, 85, 85);
+    vertical-align: middle;
+    border-radius: 4px 4px 4px 4px;
+}
+.tabla1{
+	width:400px!important;
+	height:200px;
+	margin-left:40px; 
+	margin-top:40px;
+	}
+#name,#mi{
+	font-size:15px;
+	font-weight:bold;
+	color:#666;
+	}	
+.control-group td{
+	font-size:12px;
+	font-weight:bold;
+	color:#666;
+	}
+.control-group td span{
+	font-size:12px;
+	font-weight:bold;
+	color:#666;
+	}					
+#zhuce{
+	height:560px;
+	}
+form{
+	 width:460px;
+	}		
+.login_tip{
+	font-size:20px;
+	font-weight:bold;
+	color:#333333;
+	text-align:center;
+	display:block;
+	width:460px;
+	height:50px;
+	margin-top:20px;
+	}
+.login_tip b{
+	font-size:20px;
+	font-weight:bold;
+	color:#333;
+	}
+.login_tip a{
+	font-size:20px;
+	font-weight:bold;
+	color:#0066FF;
+	}
+.m_area,.login_con,.account_area.wrapper.clearfix{
+	width:460px;
+	}	
+tbody{
+	width:460px;
+	}				
