@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    <EditText
+        android:id="@+id/publish_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/selector_edittext_account"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:singleLine="false" 
+        android:textColor="@color/black"
+        android:hint="@string/publish_hint"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/plus_pic"
+        android:layout_marginLeft="15dp"
+        android:layout_width="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/plus_selector"
+         />
+    <EditText
+        android:id="@+id/publish_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/selector_edittext_account"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:singleLine="false" 
+        android:textColor="@color/black"
+        android:hint="@string/publish_title"
+        >
+
+    </EditText>
+<Button
+        android:id="@+id/publish"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/selector_logout"
+        android:text="@string/publish" 
+        android:textColor="@color/white"
+        />
+</LinearLayout>

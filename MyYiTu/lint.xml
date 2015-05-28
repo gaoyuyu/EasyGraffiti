@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CommitPrefEdits">
+        <ignore path="src\com\gao\myyitu\LoginActivty.java" />
+    </issue>
+    <issue id="CommitTransaction">
+        <ignore path="src\com\gao\myyitu\LoginAndRegActivty.java" />
+    </issue>
+    <issue id="NewApi" severity="ignore">
+        <ignore path="src\com\gao\fragment\SlidingMeunFragment.java" />
+    </issue>
+    <issue id="ValidFragment" severity="ignore">
+        <ignore path="src\com\gao\fragment\LoginFragment.java" />
+        <ignore path="src\com\gao\fragment\MainFragment.java" />
+        <ignore path="src\com\gao\fragment\RegFragment.java" />
+        <ignore path="src\com\gao\fragment\SlidingMeunFragment.java" />
+    </issue>
+</lint>
