@@ -45,6 +45,9 @@ public class AndroidDeleteWorkServlet extends HttpServlet
 			String del_sql_2 = "delete from user_isgood where s_worksid = "+s_worksid;
 			//É¾³ýwork_comments ÆÀÂÛ¼ÇÂ¼
 			String del_sql_3 = "delete from work_comments where s_worksid = "+s_worksid;
+			System.out.println("del_sql_1------>"+del_sql_1);
+			System.out.println("del_sql_2------>"+del_sql_2);
+			System.out.println("del_sql_3------>"+del_sql_3);
 			ps = con.prepareStatement(del_sql_1);
 			int del_mark_1 = ps.executeUpdate();
 			
