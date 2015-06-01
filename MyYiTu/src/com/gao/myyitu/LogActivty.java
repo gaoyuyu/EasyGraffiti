@@ -209,9 +209,9 @@ public class LogActivty extends SherlockFragmentActivity implements OnClickListe
 			// TODO Auto-generated method stub
 			ProgressDialogUtils.stopProgressDialog(customeProgressDialog);
 			Log.i(TAG, "login_content-->"+result);
-			String mark = result.substring(0,1);
-			Log.i(TAG, "mark-->"+mark);
-			if(!mark.equals("0"))
+//			String mark = result.substring(0,1);
+			Log.i(TAG, "result-->"+result.length());
+			if(result.length() != 4)
 			{
 				UserInfoBean userInfoBean = ParseData.getUserInfoData(result);
 				Log.i(TAG, "login_content-->"+userInfoBean.toString());
@@ -233,7 +233,11 @@ public class LogActivty extends SherlockFragmentActivity implements OnClickListe
 			}
 			else
 			{
+				
+				Intent intent = new Intent(LogActivty.this,LogActivty.class);
+				startActivity(intent);
 				Toast.makeText(LogActivty.this, "µÇÂ¼Ê§°Ü",Toast.LENGTH_SHORT).show();
+				
 			}
 			
 			

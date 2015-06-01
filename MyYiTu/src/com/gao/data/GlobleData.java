@@ -7,7 +7,7 @@ import android.net.NetworkInfo;
 
 public class GlobleData
 {
-	public static final String MAIN_ADDRESS="http://10.54.4.188:8080";
+	public static final String MAIN_ADDRESS="http://192.168.191.1:8080";
 	public  static final String LOGIN_URL=MAIN_ADDRESS+"/scrawl/AndroidLoginServlet";
 	public static final String REG_URL=MAIN_ADDRESS+"/scrawl/AndroidRegisterServlet";
 	public static final String PERSON_HEAD_IMG=MAIN_ADDRESS+"/images/";

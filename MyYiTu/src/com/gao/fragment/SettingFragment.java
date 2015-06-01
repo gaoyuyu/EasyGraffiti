@@ -97,6 +97,7 @@ public class SettingFragment extends SherlockFragment implements OnClickListener
 		}
 		else
 		{
+			Log.i(TAG, "ÇëµÇÂ¼");
 			user_logout.setText("ÇëµÇÂ¼");
 		}
 		if(sharedPreferences.getString("sex", "").equals(FEMALE))
@@ -265,7 +266,14 @@ public class SettingFragment extends SherlockFragment implements OnClickListener
 		// TODO Auto-generated method stub
 		super.onResume();
 		Log.i(TAG, "setting onresume ImageLoader reload");
-		ImageLoader imageLoader = ImageLoader.getInstance();
-		imageLoader.displayImage(GlobleData.PERSON_HEAD_IMG+sharedPreferences.getString("photo", ""), user_icon_image,animateFirstListener);
+		if(!login_falg)
+		{
+			ImageLoader imageLoader = ImageLoader.getInstance();
+			imageLoader.displayImage(GlobleData.PERSON_HEAD_IMG+sharedPreferences.getString("photo", ""), user_icon_image,animateFirstListener);
+		}
+		else
+		{
+		}
+		
 	}
 }

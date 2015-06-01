@@ -122,7 +122,7 @@ public class FindPsdActivity extends SherlockFragmentActivity implements OnClick
 		protected void onPreExecute()
 		{
 			// TODO Auto-generated method stub
-			ProgressDialogUtils.startProgressDialog("«Î…‘∫Ú", customeProgressDialog);
+			ProgressDialogUtils.startProgressDialog("«Î…‘∫Ú...", customeProgressDialog);
 			super.onPreExecute();
 		}
 		@Override
