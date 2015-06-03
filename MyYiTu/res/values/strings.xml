@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易涂</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_publish">发表</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">登录</string>
+    <string name="inputemail">请输入邮箱地址</string>
+    <string name="inputusername">请输入用户名</string>
+    <string name="inputpassword">请输入密码</string>
+    <string name="inputpasswordrepeat">请再次输入相同密码</string>
+    <string name="inputplace">请输入居住地</string>
+    <string name="inputinfro">工作信息</string>
+    <string name="inputmark">个人标签</string>
+    <string name="inputintro">个人说明</string>
+    <string name="sex_label">性别：</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="publish_hint">这一刻的想法~</string>
+    <string name="publish_title">标题</string>
+    <string name="publish">发表</string>
+
+</resources>
