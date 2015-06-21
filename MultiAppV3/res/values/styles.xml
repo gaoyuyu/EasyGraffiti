@@ -1,0 +1,57 @@
+<resources>
+    <style name="DarkActionBar" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/WeChatActionBar</item>
+        <item name="android:itemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="actionBarItemBackground">@drawable/actionbar_bg_selector</item>
+        <item name="android:itemTextAppearance">@style/WeChatActionBarOverflow</item>
+        <item name="actionOverflowButtonStyle">@style/WeChatActionButtonOverflow</item>
+    </style>
+
+    <style name="WeChatActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:background">#303537</item>
+        <item name="titleTextStyle">@style/WeChatActionBarTitleText</item>
+    </style>
+
+    <style name="WeChatActionBarTitleText" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">#cfcfcf</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="WeChatActionBarOverflow" parent="Widget.Sherlock.ActionButton.Overflow">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="WeChatActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/actionbar_more_icon</item>
+    </style>
+    
+    <style name="StyledIndicators" parent="@style/DarkActionBar">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@drawable/selector_tabtext</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	
+</resources>

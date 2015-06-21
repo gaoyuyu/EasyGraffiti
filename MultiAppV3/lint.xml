@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src\com\gao\fragment\MeunFragment.java" />
+    </issue>
+    <issue id="ValidFragment">
+        <ignore path="src\com\gao\fragment\MainFragment.java" />
+        <ignore path="src\com\gao\fragment\MeunFragment.java" />
+    </issue>
+</lint>
